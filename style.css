@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    background: black;
+    width: 100%;
+    text-align: center;
+    z-index: -2;
+}
+
+#GameScreen {
+    margin-top: 15px;
+    margin-left: 10%;
+    width: 80%;
+    height: 80vh;
+    position: absolute;
+    border: 2px dotted white;
+}
+
+.lives {
+    margin-top: 15px;
+    color: white;
+    text-align: left;
+}
+
+.score {
+    margin-top: -22px;
+    color: white;
+    text-align: right;
+}
+
+.level {
+    margin-top: -22px;
+    color: white;
+    text-align: center;
+}
+
+.timer {
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+}
+
+.fps {
+    color: white;
+    margin-top: -22px;
+    text-align: right;
+}
